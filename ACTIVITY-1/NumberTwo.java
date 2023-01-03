@@ -1,7 +1,7 @@
 import java.io.*;
 
 
-    public class FileRead 
+    public class NumberTwo 
     {
     public static void main(String [] args) throws IOException
     {
