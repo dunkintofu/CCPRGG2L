@@ -47,7 +47,7 @@ public class Lab2 {
                 or underscore (two or more)
             5. Characters before the "@" sign should be at least 7 characters
         */
-        File file = new File("C:\\Users\\mkvil\\Lab2\\username.txt");
+        File file = new File("C:\\Users\\mkvil\\Lab2\\email.txt");
         BufferedReader br = new BufferedReader (new FileReader(file));
         String pattern = "(^[\\w-_]{7,})@([\\w-_]+)\\.([\\w-_]{2,})$"; //insert regex here
         String text;
