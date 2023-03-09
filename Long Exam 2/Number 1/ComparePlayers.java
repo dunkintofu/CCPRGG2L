@@ -20,7 +20,6 @@ ComparePlayers(String name, String team, int jerseyNumber) {
     player2.readPlayer();
     System.out.println("Player 2 info: " + player2.name + ", " + player2.team + ", " + player2.jerseyNumber);
 
-    //call equals method
     if (player1.team.equals(player2.team) && player1.jerseyNumber == player2.jerseyNumber) {
         System.out.println("true");
     } else {
@@ -28,10 +27,14 @@ ComparePlayers(String name, String team, int jerseyNumber) {
     }
     }
 
-    // public static boolean equals(Object o){
-    //     if(this == 0)
-    //     return false;
 
-    // }
-
+    //call equals method
+    public static boolean equals(Player player1, Player player2){
+        if (player1.team.equals(player2.team) && player1.jerseyNumber == player2.jerseyNumber) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 }
+
